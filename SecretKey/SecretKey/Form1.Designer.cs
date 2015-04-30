@@ -40,7 +40,8 @@
             // 
             // tb_mac
             // 
-            this.tb_mac.Location = new System.Drawing.Point(109, 58);
+            this.tb_mac.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.tb_mac.Location = new System.Drawing.Point(109, 63);
             this.tb_mac.Multiline = true;
             this.tb_mac.Name = "tb_mac";
             this.tb_mac.Size = new System.Drawing.Size(315, 118);
@@ -48,15 +49,16 @@
             // 
             // tb_hash
             // 
+            this.tb_hash.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.tb_hash.Location = new System.Drawing.Point(109, 20);
             this.tb_hash.Name = "tb_hash";
-            this.tb_hash.Size = new System.Drawing.Size(315, 21);
+            this.tb_hash.Size = new System.Drawing.Size(315, 23);
             this.tb_hash.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(47, 62);
+            this.label1.Location = new System.Drawing.Point(47, 68);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(59, 12);
             this.label1.TabIndex = 5;
@@ -65,7 +67,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(65, 23);
+            this.label2.Location = new System.Drawing.Point(65, 24);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 12);
             this.label2.TabIndex = 6;
@@ -74,7 +76,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(53, 195);
+            this.label3.Location = new System.Drawing.Point(53, 206);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(53, 12);
             this.label3.TabIndex = 7;
@@ -82,7 +84,8 @@
             // 
             // tb_xlh
             // 
-            this.tb_xlh.Location = new System.Drawing.Point(109, 192);
+            this.tb_xlh.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.tb_xlh.Location = new System.Drawing.Point(109, 202);
             this.tb_xlh.Multiline = true;
             this.tb_xlh.Name = "tb_xlh";
             this.tb_xlh.Size = new System.Drawing.Size(315, 117);
@@ -90,7 +93,7 @@
             // 
             // btn_submit
             // 
-            this.btn_submit.Location = new System.Drawing.Point(118, 327);
+            this.btn_submit.Location = new System.Drawing.Point(118, 342);
             this.btn_submit.Name = "btn_submit";
             this.btn_submit.Size = new System.Drawing.Size(107, 23);
             this.btn_submit.TabIndex = 4;
@@ -100,7 +103,7 @@
             // 
             // btn_mac
             // 
-            this.btn_mac.Location = new System.Drawing.Point(290, 327);
+            this.btn_mac.Location = new System.Drawing.Point(290, 342);
             this.btn_mac.Name = "btn_mac";
             this.btn_mac.Size = new System.Drawing.Size(107, 23);
             this.btn_mac.TabIndex = 8;
@@ -112,7 +115,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(700, 434);
+            this.ClientSize = new System.Drawing.Size(502, 380);
             this.Controls.Add(this.btn_mac);
             this.Controls.Add(this.btn_submit);
             this.Controls.Add(this.tb_xlh);
